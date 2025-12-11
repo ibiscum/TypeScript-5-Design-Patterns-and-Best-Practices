@@ -47,11 +47,11 @@ const flattenTweets = (tweets: any, users: any) => {
      * We also remove the trailing link if the tweet was truncated
      */
     const content = tweetData.text
-      .replaceAll(/&amp;/g, '&')
       .replaceAll(/&lt;/g, '<')
       .replaceAll(/&gt;/g, '>')
       .replaceAll(/&quot;/g, '"')
       .replaceAll(/&#39;/g, "'")
+      .replaceAll(/&amp;/g, '&')
       .replace(/\b(http(s|):\/\/.+)\W*$/, '');
 
     return {
