@@ -15,9 +15,9 @@
   "author": "Theo Despoudis",
   "license": "ISC",
   "workspaces": [
-    "chapters/*"
+    "chapter-*"
   ],
   "devDependencies": {
-    "jest-extended": "^4.0.2"
+    "jest-extended": "^7.0.0"
   }
 }
