@@ -29,7 +29,7 @@
     "playwright": "*",
     "shared": "*",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9"
+    "vite": "^7.2.7"
   },
   "overrides": {
     "next": {
