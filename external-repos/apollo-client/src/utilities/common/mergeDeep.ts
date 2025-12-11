@@ -73,6 +73,10 @@ export class DeepMerger<TContextArgs extends any[]> {
   public merge(target: any, source: any, ...context: TContextArgs): any {
     if (isNonNullObject(source) && isNonNullObject(target)) {
       Object.keys(source).forEach((sourceKey) => {
+        // Prevent prototype pollution
+        if (sourceKey === '__proto__' || sourceKey === 'constructor' || sourceKey === 'prototype') {
+          return;
+        }
         if (hasOwnProperty.call(target, sourceKey)) {
           const targetValue = target[sourceKey];
           if (source[sourceKey] !== targetValue) {
