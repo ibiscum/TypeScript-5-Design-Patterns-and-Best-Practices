@@ -68,10 +68,11 @@ const createSchemaFetch = (
       try {
         validationErrors = validate(schema, document);
       } catch (e) {
+        // Log the full error, including stack trace, for debugging purposes
+        console.error("GraphQL validation exception:", e);
+        // Return a generic error message to the client, without stack trace or internal details
         validationErrors = [
-          e instanceof Error ?
-            GraphQLError.prototype.toJSON.apply(e)
-          : (e as any),
+          { message: "Internal server error during validation" },
         ];
       }
 
