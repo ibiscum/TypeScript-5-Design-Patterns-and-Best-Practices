@@ -38,7 +38,7 @@ export function mergeDeep<T extends any[]>(
 // element type, which works perfectly when the sources array has a
 // consistent element type.
 export function mergeDeepArray<T>(sources: T[]): T {
-  let target = sources[0] || ({} as T);
+  let target = sources[0] || (Object.create(null) as T);
   const count = sources.length;
   if (count > 1) {
     const merger = new DeepMerger();
@@ -118,10 +118,8 @@ export class DeepMerger<TContextArgs extends any[]> {
         if (Array.isArray(value)) {
           value = (value as any).slice(0);
         } else {
-          value = {
-            __proto__: Object.getPrototypeOf(value),
-            ...value,
-          };
+          // Create a shallow copy in a prototype-less object to prevent prototype pollution
+          value = Object.assign(Object.create(null), value);
         }
         this.pastCopies.add(value);
       }
