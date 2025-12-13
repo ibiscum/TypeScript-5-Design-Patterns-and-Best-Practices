@@ -19,3 +19,5 @@ class SearchService {
     this.path = path
   }
 }
+
+export { SearchService, QueryBuilder, EmptyQueryBuilder }
