@@ -20,7 +20,7 @@
     "ramda":"0.30.1",
     "immutable": "4.0.0-rc.12",
     "node-fetch": "3.2.10",
-    "lodash": "4.17.21"
+    "lodash": "4.17.23"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.6",
