@@ -18,7 +18,7 @@ importers:
         specifier: ^1.0.13
         version: 1.0.13
       '@types/node':
-        specifier: ^25.0.0
+        specifier: ^25.5.0
         version: 25.5.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.49.0
@@ -82,14 +82,14 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.19.37
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       rimraf:
         specifier: 5.0.5
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -122,20 +122,20 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.19.37
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       rimraf:
         specifier: 5.0.5
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.9.3)(vite@8.0.0(@types/node@20.19.37))
+        version: 4.3.2(typescript@5.9.3)(vite@8.0.0(@types/node@25.5.0))
 
   chapter-04:
     dependencies:
@@ -165,8 +165,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.7.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
@@ -187,7 +187,7 @@ importers:
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       tslib:
         specifier: 2.6.2
         version: 2.6.2
@@ -196,13 +196,13 @@ importers:
         version: 5.9.3
       vite:
         specifier: 5.4.21
-        version: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+        version: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
       vitest:
         specifier: ^1.5.0
-        version: 1.6.1(@types/node@20.19.37)(lightningcss@1.32.0)
+        version: 1.6.1(@types/node@25.5.0)(lightningcss@1.32.0)
 
   chapter-05:
     dependencies:
@@ -232,8 +232,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.7.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
@@ -254,7 +254,7 @@ importers:
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       tslib:
         specifier: 2.6.2
         version: 2.6.2
@@ -263,13 +263,13 @@ importers:
         version: 5.9.3
       vite:
         specifier: 5.4.21
-        version: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+        version: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
       vitest:
         specifier: ^1.5.0
-        version: 1.6.1(@types/node@20.19.37)(lightningcss@1.32.0)
+        version: 1.6.1(@types/node@25.5.0)(lightningcss@1.32.0)
 
   chapter-06:
     dependencies:
@@ -299,8 +299,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.7.0
         version: 7.18.0(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
@@ -312,7 +312,7 @@ importers:
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       tslib:
         specifier: 2.6.2
         version: 2.6.2
@@ -321,7 +321,7 @@ importers:
         version: 5.9.3
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.9.3)(vite@8.0.0(@types/node@20.19.37))
+        version: 4.3.2(typescript@5.9.3)(vite@8.0.0(@types/node@25.5.0))
 
   chapter-07:
     dependencies:
@@ -351,10 +351,10 @@ importers:
         version: 7.8.1
       vite:
         specifier: ^8.0.0
-        version: 8.0.0(@types/node@20.19.37)
+        version: 8.0.0(@types/node@25.5.0)
       vitest:
         specifier: ^4.1.0
-        version: 4.1.0(@types/node@20.19.37)(vite@8.0.0(@types/node@20.19.37))
+        version: 4.1.0(@types/node@25.5.0)(vite@8.0.0(@types/node@25.5.0))
     devDependencies:
       '@tsconfig/recommended':
         specifier: ^1.0.6
@@ -363,8 +363,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       '@types/ramda':
         specifier: 0.30.1
         version: 0.30.1
@@ -385,7 +385,7 @@ importers:
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       tslib:
         specifier: 2.6.2
         version: 2.6.2
@@ -430,8 +430,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       '@types/node-fetch':
         specifier: 2.6.11
         version: 2.6.11
@@ -461,7 +461,7 @@ importers:
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       tslib:
         specifier: 2.6.2
         version: 2.6.2
@@ -470,13 +470,13 @@ importers:
         version: 5.9.3
       vite:
         specifier: 5.4.21
-        version: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+        version: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
       vitest:
         specifier: ^4.0.15
-        version: 4.1.0(@types/node@20.19.37)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.1.0(@types/node@25.5.0)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
 
   chapter-09:
     dependencies:
@@ -521,8 +521,8 @@ importers:
         specifier: 4.14.188
         version: 4.14.188
       '@types/node':
-        specifier: ^20.19.37
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       '@types/node-fetch':
         specifier: 2.6.11
         version: 2.6.11
@@ -531,16 +531,16 @@ importers:
         version: 0.30.1
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.18.0
-        version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
+        version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
       '@typescript-eslint/parser':
         specifier: ^7.18.0
-        version: 7.18.0(eslint@8.57.1)(typescript@5.9.3)
+        version: 7.18.0(eslint@9.39.4)(typescript@5.9.3)
       core-js:
         specifier: 3.37.0
         version: 3.37.0
       eslint:
-        specifier: ^8.57.1
-        version: 8.57.1
+        specifier: ^9.26.0
+        version: 9.39.4
       fp-ts:
         specifier: 2.16.9
         version: 2.16.9
@@ -552,7 +552,7 @@ importers:
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       tslib:
         specifier: 2.6.2
         version: 2.6.2
@@ -561,13 +561,13 @@ importers:
         version: 5.9.3
       vite:
         specifier: 5.4.21
-        version: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+        version: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
       vitest:
         specifier: ^4.1.0
-        version: 4.1.0(@types/node@20.19.37)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.1.0(@types/node@25.5.0)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
 
   chapter-10:
     dependencies:
@@ -606,8 +606,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.19.37
+        specifier: ^25.5.0
+        version: 25.5.0
       '@types/node-fetch':
         specifier: 2.6.11
         version: 2.6.11
@@ -637,7 +637,7 @@ importers:
         version: 5.0.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.19.37)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.5.0)(typescript@5.9.3)
       tslib:
         specifier: 2.6.2
         version: 2.6.2
@@ -646,13 +646,13 @@ importers:
         version: 5.9.3
       vite:
         specifier: 5.4.21
-        version: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+        version: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
       vitest:
         specifier: ^4.0.15
-        version: 4.1.0(@types/node@20.19.37)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+        version: 4.1.0(@types/node@25.5.0)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
 
 packages:
 
@@ -1408,9 +1408,6 @@ packages:
 
   '@types/node-fetch@2.6.11':
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
-
-  '@types/node@20.19.37':
-    resolution: {integrity: sha512-8kzdPJ3FsNsVIurqBs7oodNnCEVbni9yUEkaHbgptDACOPW04jimGagZ51E6+lXUwJjgnBw+hyko/lkFWCldqw==}
 
   '@types/node@25.5.0':
     resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
@@ -2873,9 +2870,6 @@ packages:
     resolution: {integrity: sha512-u3xV3X7uzvi5b1MncmZo3i2Aw222Zk1keqLA1YkHldREkAhAqi65wuPfe7lHx8H/Wzy+8CE7S7uS3jekIM5s8g==}
     engines: {node: '>=8'}
 
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
-
   undici-types@7.18.2:
     resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
@@ -3632,7 +3626,7 @@ snapshots:
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
 
   '@types/chai@5.2.3':
     dependencies:
@@ -3641,7 +3635,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
 
   '@types/deep-eql@4.0.2': {}
 
@@ -3649,7 +3643,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.8':
     dependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
       '@types/qs': 6.15.0
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -3669,12 +3663,8 @@ snapshots:
 
   '@types/node-fetch@2.6.11':
     dependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
       form-data: 4.0.5
-
-  '@types/node@20.19.37':
-    dependencies:
-      undici-types: 6.21.0
 
   '@types/node@25.5.0':
     dependencies:
@@ -3690,12 +3680,12 @@ snapshots:
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
 
   '@types/serve-static@2.2.0':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
 
   '@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
@@ -3958,13 +3948,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.0(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))':
+  '@vitest/mocker@4.1.0(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))':
     dependencies:
       '@vitest/spy': 4.1.0
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+      vite: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
 
   '@vitest/mocker@4.1.0(vite@7.2.7(@types/node@25.5.0)(lightningcss@1.32.0))':
     dependencies:
@@ -3974,13 +3964,13 @@ snapshots:
     optionalDependencies:
       vite: 7.2.7(@types/node@25.5.0)(lightningcss@1.32.0)
 
-  '@vitest/mocker@4.1.0(vite@8.0.0(@types/node@20.19.37))':
+  '@vitest/mocker@4.1.0(vite@8.0.0(@types/node@25.5.0))':
     dependencies:
       '@vitest/spy': 4.1.0
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.0.0(@types/node@20.19.37)
+      vite: 8.0.0(@types/node@25.5.0)
 
   '@vitest/pretty-format@4.1.0':
     dependencies:
@@ -5307,24 +5297,6 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  ts-node@10.9.2(@types/node@20.19.37)(typescript@5.9.3):
-    dependencies:
-      '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.12
-      '@tsconfig/node12': 1.0.11
-      '@tsconfig/node14': 1.0.3
-      '@tsconfig/node16': 1.0.4
-      '@types/node': 20.19.37
-      acorn: 8.16.0
-      acorn-walk: 8.3.5
-      arg: 4.1.3
-      create-require: 1.1.1
-      diff: 4.0.4
-      make-error: 1.3.6
-      typescript: 5.9.3
-      v8-compile-cache-lib: 3.0.1
-      yn: 3.1.1
-
   ts-node@10.9.2(@types/node@25.5.0)(typescript@5.9.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
@@ -5378,8 +5350,6 @@ snapshots:
     dependencies:
       '@lukeed/csprng': 1.1.0
 
-  undici-types@6.21.0: {}
-
   undici-types@7.18.2: {}
 
   unpipe@1.0.0: {}
@@ -5394,13 +5364,13 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-node@1.6.1(@types/node@20.19.37)(lightningcss@1.32.0):
+  vite-node@1.6.1(@types/node@25.5.0)(lightningcss@1.32.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.3
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+      vite: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5412,24 +5382,24 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)):
+  vite-tsconfig-paths@4.3.2(typescript@5.9.3)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
     optionalDependencies:
-      vite: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+      vite: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite-tsconfig-paths@4.3.2(typescript@5.9.3)(vite@8.0.0(@types/node@20.19.37)):
+  vite-tsconfig-paths@4.3.2(typescript@5.9.3)(vite@8.0.0(@types/node@25.5.0)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
     optionalDependencies:
-      vite: 8.0.0(@types/node@20.19.37)
+      vite: 8.0.0(@types/node@25.5.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5445,13 +5415,13 @@ snapshots:
       - supports-color
       - typescript
 
-  vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0):
+  vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.8
       rollup: 4.59.0
     optionalDependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
       fsevents: 2.3.3
       lightningcss: 1.32.0
 
@@ -5468,7 +5438,7 @@ snapshots:
       fsevents: 2.3.3
       lightningcss: 1.32.0
 
-  vite@8.0.0(@types/node@20.19.37):
+  vite@8.0.0(@types/node@25.5.0):
     dependencies:
       '@oxc-project/runtime': 0.115.0
       lightningcss: 1.32.0
@@ -5477,10 +5447,10 @@ snapshots:
       rolldown: 1.0.0-rc.9
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
       fsevents: 2.3.3
 
-  vitest@1.6.1(@types/node@20.19.37)(lightningcss@1.32.0):
+  vitest@1.6.1(@types/node@25.5.0)(lightningcss@1.32.0):
     dependencies:
       '@vitest/expect': 1.6.1
       '@vitest/runner': 1.6.1
@@ -5499,11 +5469,11 @@ snapshots:
       strip-literal: 2.1.1
       tinybench: 2.9.0
       tinypool: 0.8.4
-      vite: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
-      vite-node: 1.6.1(@types/node@20.19.37)(lightningcss@1.32.0)
+      vite: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
+      vite-node: 1.6.1(@types/node@25.5.0)(lightningcss@1.32.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
     transitivePeerDependencies:
       - less
       - lightningcss
@@ -5514,10 +5484,10 @@ snapshots:
       - supports-color
       - terser
 
-  vitest@4.1.0(@types/node@20.19.37)(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)):
+  vitest@4.1.0(@types/node@25.5.0)(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)):
     dependencies:
       '@vitest/expect': 4.1.0
-      '@vitest/mocker': 4.1.0(vite@5.4.21(@types/node@20.19.37)(lightningcss@1.32.0))
+      '@vitest/mocker': 4.1.0(vite@5.4.21(@types/node@25.5.0)(lightningcss@1.32.0))
       '@vitest/pretty-format': 4.1.0
       '@vitest/runner': 4.1.0
       '@vitest/snapshot': 4.1.0
@@ -5534,37 +5504,10 @@ snapshots:
       tinyexec: 1.0.4
       tinyglobby: 0.2.15
       tinyrainbow: 3.1.0
-      vite: 5.4.21(@types/node@20.19.37)(lightningcss@1.32.0)
+      vite: 5.4.21(@types/node@25.5.0)(lightningcss@1.32.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.19.37
-    transitivePeerDependencies:
-      - msw
-
-  vitest@4.1.0(@types/node@20.19.37)(vite@8.0.0(@types/node@20.19.37)):
-    dependencies:
-      '@vitest/expect': 4.1.0
-      '@vitest/mocker': 4.1.0(vite@8.0.0(@types/node@20.19.37))
-      '@vitest/pretty-format': 4.1.0
-      '@vitest/runner': 4.1.0
-      '@vitest/snapshot': 4.1.0
-      '@vitest/spy': 4.1.0
-      '@vitest/utils': 4.1.0
-      es-module-lexer: 2.0.0
-      expect-type: 1.3.0
-      magic-string: 0.30.21
-      obug: 2.1.1
-      pathe: 2.0.3
-      picomatch: 4.0.3
-      std-env: 4.0.0
-      tinybench: 2.9.0
-      tinyexec: 1.0.4
-      tinyglobby: 0.2.15
-      tinyrainbow: 3.1.0
-      vite: 8.0.0(@types/node@20.19.37)
-      why-is-node-running: 2.3.0
-    optionalDependencies:
-      '@types/node': 20.19.37
+      '@types/node': 25.5.0
     transitivePeerDependencies:
       - msw
 
@@ -5589,6 +5532,33 @@ snapshots:
       tinyglobby: 0.2.15
       tinyrainbow: 3.1.0
       vite: 7.2.7(@types/node@25.5.0)(lightningcss@1.32.0)
+      why-is-node-running: 2.3.0
+    optionalDependencies:
+      '@types/node': 25.5.0
+    transitivePeerDependencies:
+      - msw
+
+  vitest@4.1.0(@types/node@25.5.0)(vite@8.0.0(@types/node@25.5.0)):
+    dependencies:
+      '@vitest/expect': 4.1.0
+      '@vitest/mocker': 4.1.0(vite@8.0.0(@types/node@25.5.0))
+      '@vitest/pretty-format': 4.1.0
+      '@vitest/runner': 4.1.0
+      '@vitest/snapshot': 4.1.0
+      '@vitest/spy': 4.1.0
+      '@vitest/utils': 4.1.0
+      es-module-lexer: 2.0.0
+      expect-type: 1.3.0
+      magic-string: 0.30.21
+      obug: 2.1.1
+      pathe: 2.0.3
+      picomatch: 4.0.3
+      std-env: 4.0.0
+      tinybench: 2.9.0
+      tinyexec: 1.0.4
+      tinyglobby: 0.2.15
+      tinyrainbow: 3.1.0
+      vite: 8.0.0(@types/node@25.5.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 25.5.0
