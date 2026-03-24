@@ -33,7 +33,7 @@
     "@typescript-eslint/parser": "^7.18.0",
     "core-js": "3.37.0",
     "eslint": "^9.26.0",
-    "fp-ts": "2.16.9",
+    "fp-ts": "2.16.11",
     "prettier": "^3.8.1",
     "rimraf": "5.0.5",
     "ts-node": "^10.9.2",

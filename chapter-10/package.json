@@ -39,7 +39,7 @@
     "rimraf": "5.0.5",
     "tslib": "2.6.2",
     "core-js": "3.37.0",
-    "fp-ts": "2.16.9"
+    "fp-ts": "2.16.11"
   },
   "keywords": [],
   "author": "Theo Despoudis",

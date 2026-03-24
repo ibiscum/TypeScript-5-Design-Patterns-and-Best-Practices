@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "core-js": "3.37.0",
-    "fp-ts": "2.16.9",
+    "fp-ts": "2.16.11",
     "rimraf": "5.0.5",
     "ts-node": "^10.9.2",
     "tslib": "2.6.2",
