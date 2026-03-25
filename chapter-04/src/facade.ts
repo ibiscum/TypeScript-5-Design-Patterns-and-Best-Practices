@@ -66,11 +66,11 @@ const facade = new Facade(subsystemA, subsystemB)
 
 clientCode(facade)
 
-interface AuthService {
-    login(username: string, password: string): Promise<string>
-    logout(): Promise<void>
-}
-interface UserProfileService {
-    getUserProfile(userId: string): Promise<object>
-    updateUserProfile(userId: string, data: object): Promise<object>
-}
+// interface AuthService {
+//     login(username: string, password: string): Promise<string>
+//     logout(): Promise<void>
+// }
+// interface UserProfileService {
+//     getUserProfile(userId: string): Promise<object>
+//     updateUserProfile(userId: string, data: object): Promise<object>
+// }

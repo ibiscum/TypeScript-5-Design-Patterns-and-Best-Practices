@@ -4,10 +4,11 @@
   "description": "Chapter 2",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "rimraf dist/**/* && tsc --build --clean && tsc --build",
-    "lint:scripts": "eslint . --ext .ts",
+    "lint": "eslint --fix .",
     "test": "vitest"
   },
   "dependencies": {

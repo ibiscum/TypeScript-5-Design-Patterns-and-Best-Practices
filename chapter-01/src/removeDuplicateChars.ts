@@ -1,7 +1,7 @@
 function removeDuplicateChars(input: string) {
   const result = []
   const seen = new Set<string>()
-  for (let c of input) {
+  for (const c of input) {
     if (!seen.has(c)) {
       seen.add(c)
       result.push(c)

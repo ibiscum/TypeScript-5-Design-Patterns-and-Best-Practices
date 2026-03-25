@@ -1,5 +1,5 @@
 // With strictNullChecks: error
-let maybeNumber: number | null = null
+const maybeNumber: number | null = null
 // let value = maybeNumber * 10
 
 // Workaround: type guard or nullish coalescing operator
@@ -10,4 +10,4 @@ if (maybeNumber !== null) {
   value2 = 0
 }
 
-let value3 = maybeNumber ?? 0
+const value3 = maybeNumber ?? 0

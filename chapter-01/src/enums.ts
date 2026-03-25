@@ -5,7 +5,7 @@ enum Direction {
   Right, // Implicitly assigned 3
 }
 
-let userDirection: Direction = Direction.Up
+const userDirection: Direction = Direction.Up
 
 enum Permission {
   Read = "read",
@@ -25,5 +25,5 @@ enum Color {
   Blue,
 }
 
-let myColor: Color = Color.Red
+const myColor: Color = Color.Red
 // myColor = "orange"

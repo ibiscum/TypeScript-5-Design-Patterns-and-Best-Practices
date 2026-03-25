@@ -1,3 +1,5 @@
+import { Buffer } from "node:buffer";
+
 class SSHUser {
   constructor(
     private privateKey: string,

@@ -32,11 +32,11 @@ export class Cat implements AnimalPrototype {
   }
 }
 
-let dog: AnimalPrototype = new Dog("Boxer", 3);
-let clonedDog: Dog = dog.clone() as Dog;
+const dog: AnimalPrototype = new Dog("Boxer", 3);
+const clonedDog: Dog = dog.clone() as Dog;
 console.log(clonedDog); // Output: Dog { breed: 'Boxer', age: 3 }
 
-let cat: AnimalPrototype = new Cat("Scott", 4.5);
-let clonedCat: Cat = cat.clone() as Cat;
+const cat: AnimalPrototype = new Cat("Scott", 4.5);
+const clonedCat: Cat = cat.clone() as Cat;
 console.log(clonedCat); // Output: Cat { furColor: 'Scott', weight: 4.5 }
 

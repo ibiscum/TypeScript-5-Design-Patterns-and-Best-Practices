@@ -5,7 +5,7 @@ export interface Flyweight {
 
 // Concrete Flyweight
 export class ConcreteFlyweight implements Flyweight {
-  constructor(private sharedState: Object) {}
+  constructor(private sharedState: object) {}
 
   public perform(customization: { id: string }): void {
     console.log(
@@ -17,7 +17,7 @@ export class ConcreteFlyweight implements Flyweight {
 export class FlyweightFactory {
   private cache = new Map<string, Flyweight>()
 
-  public getFlyweight(sharedState: Object): Flyweight {
+  public getFlyweight(sharedState: object): Flyweight {
     const key = JSON.stringify(sharedState)
 
     if (!this.cache.has(key)) {

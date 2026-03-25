@@ -1,0 +1,14 @@
+class Animal {
+    sleep() { }
+}
+class Cat extends Animal {
+    miaw() { }
+}
+// function petAnimal<T>(value: T, getDefault: () => NoInfer<T>): T {
+function petAnimal(value, getDefault) {
+    // ... function logic ...
+    return value || getDefault();
+}
+// This would compile without errors
+petAnimal(new Cat(), () => new Animal());
+export {};

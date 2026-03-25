@@ -10,7 +10,7 @@ type ExtendedUser = User & {
   age: number
 } // ExtendedUser requires both name (from User) and age
 
-let user: ExtendedUser = {
+const user: ExtendedUser = {
   name: "Theo",
   age: 20,
 }

@@ -2,6 +2,7 @@ export interface Vehicle {
   startEngine(): void
   stopEngine(): void
 }
+
 export class Car implements Vehicle {
   startEngine(): void {
     console.log("Starting car engine...")
@@ -52,20 +53,20 @@ factories.forEach((factory: VehicleFactory) => {
 // Starting truck engine...
 // Starting car engine...
 
-enum VehicleType {
-  CAR,
-  TRUCK,
-}
+// enum VehicleType {
+//   CAR,
+//   TRUCK,
+// }
 
-class VehicleCreator {
-  create(vehicleType: VehicleType): Vehicle {
-    switch (vehicleType) {
-      case VehicleType.CAR:
-        return new Car()
-      case VehicleType.TRUCK:
-        return new Truck()
-      default:
-        throw new Error("Invalid vehicle type")
-    }
-  }
-}
+// class VehicleCreator {
+//   create(vehicleType: VehicleType): Vehicle {
+//     switch (vehicleType) {
+//       case VehicleType.CAR:
+//         return new Car()
+//       case VehicleType.TRUCK:
+//         return new Truck()
+//       default:
+//         throw new Error("Invalid vehicle type")
+//     }
+//   }
+// }

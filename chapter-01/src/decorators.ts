@@ -1,5 +1,5 @@
 function memoize<T>(originalMethod: any, _context: any) {
-  let cache: Map<string, T> = new Map()
+  const cache: Map<string, T> = new Map()
   if (typeof originalMethod !== "function") {
     throw new Error("Memoize decorator can only be used on functions")
   }

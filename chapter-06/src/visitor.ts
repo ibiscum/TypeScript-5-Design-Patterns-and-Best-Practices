@@ -45,7 +45,7 @@ export class CompositeDocument implements AcceptsVisitor {
   }
 
   accept(visitor: DocumentVisitor): void {
-    for (let document of this.documents) {
+    for (const document of this.documents) {
       document.accept(visitor)
     }
     visitor.visitCompositeDocument(this)

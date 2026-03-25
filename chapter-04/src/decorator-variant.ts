@@ -10,7 +10,7 @@ function Encrypt() {
   }
 }
 function Compress() {
-  return function <T extends { new (...args: any[]): FileReader }>(constructor: T) {
+  return function <T extends { new (...args: unknown[]): FileReader }>(constructor: T) {
     return class extends constructor {
       read(filePath: string): string {
         const content = super.read(filePath)
