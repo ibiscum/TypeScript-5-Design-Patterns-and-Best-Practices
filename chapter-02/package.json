@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@nestjs/common": "11.1.17",
-    "@nestjs/core": "11.1.17",
+    "@nestjs/core": "11.1.18",
     "body-parser": "2.2.2",
     "express": "5.2.1",
     "reflect-metadata": "0.2.2",
