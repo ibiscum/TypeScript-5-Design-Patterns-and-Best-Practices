@@ -30,8 +30,8 @@ importers:
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.1.0)
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       eslint:
         specifier: ^10.1.0
         version: 10.1.0
@@ -40,7 +40,7 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -49,13 +49,13 @@ importers:
         version: 8.57.2(eslint@10.1.0)(typescript@6.0.2)
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-02:
     dependencies:
@@ -85,14 +85,14 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       rimraf:
         specifier: 6.1.3
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -125,20 +125,20 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       rimraf:
         specifier: 6.1.3
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-04:
     dependencies:
@@ -168,8 +168,8 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       eslint:
         specifier: ^10.1.0
         version: 10.1.0
@@ -178,19 +178,19 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-05:
     dependencies:
@@ -220,8 +220,8 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       eslint:
         specifier: ^10.1.0
         version: 10.1.0
@@ -230,7 +230,7 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -239,13 +239,13 @@ importers:
         version: 8.57.2(eslint@10.1.0)(typescript@6.0.2)
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-06:
     dependencies:
@@ -269,7 +269,7 @@ importers:
         version: 7.8.2
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -278,8 +278,8 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       eslint:
         specifier: ^10.1.0
         version: 10.1.0
@@ -288,7 +288,7 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -297,7 +297,7 @@ importers:
         version: 8.57.2(eslint@10.1.0)(typescript@6.0.2)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-07:
     dependencies:
@@ -327,10 +327,10 @@ importers:
         version: 7.8.2
       vite:
         specifier: ^8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
     devDependencies:
       '@tsconfig/recommended':
         specifier: ^1.0.13
@@ -339,8 +339,8 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       '@types/ramda':
         specifier: 0.31.1
         version: 0.31.1
@@ -361,7 +361,7 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       tslib:
         specifier: 2.8.1
         version: 2.8.1
@@ -403,8 +403,8 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       '@types/node-fetch':
         specifier: 2.6.13
         version: 2.6.13
@@ -422,19 +422,19 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-09:
     dependencies:
@@ -479,8 +479,8 @@ importers:
         specifier: 4.17.24
         version: 4.17.24
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       '@types/node-fetch':
         specifier: 2.6.13
         version: 2.6.13
@@ -498,7 +498,7 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -507,13 +507,13 @@ importers:
         version: 8.57.2(eslint@10.1.0)(typescript@6.0.2)
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-10:
     dependencies:
@@ -546,8 +546,8 @@ importers:
         specifier: 5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       '@types/node-fetch':
         specifier: 2.6.13
         version: 2.6.13
@@ -565,19 +565,19 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-11/apollo:
     dependencies:
@@ -595,8 +595,8 @@ importers:
         version: 0.2.2
     devDependencies:
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       '@types/node-fetch':
         specifier: 2.6.13
         version: 2.6.13
@@ -608,19 +608,19 @@ importers:
         version: 6.1.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
 
   chapter-11/trpc:
     dependencies:
@@ -653,8 +653,8 @@ importers:
         specifier: ^1.0.13
         version: 1.0.13
       '@types/node':
-        specifier: ^25.5.0
-        version: 25.5.0
+        specifier: ^25.5.2
+        version: 25.5.2
       '@types/node-fetch':
         specifier: 2.6.13
         version: 2.6.13
@@ -669,7 +669,7 @@ importers:
         version: 2.1.5
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+        version: 10.9.2(@types/node@25.5.2)(typescript@6.0.2)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -678,13 +678,13 @@ importers:
         version: 8.57.2(eslint@10.1.0)(typescript@6.0.2)
       vite:
         specifier: 8.0.7
-        version: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+        version: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       vitest:
         specifier: ^4.1.1
-        version: 4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+        version: 4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       wait-port:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1201,8 +1201,8 @@ packages:
   '@types/node-fetch@2.6.13':
     resolution: {integrity: sha512-QGpRVpzSaUs30JBSGPjOg4Uveu384erbHBoT1zeONvyCfwQxIkUshLAOqN/k9EjGviPRmWTTe6aH2qySWKTVSw==}
 
-  '@types/node@25.5.0':
-    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
+  '@types/node@25.5.2':
+    resolution: {integrity: sha512-tO4ZIRKNC+MDWV4qKVZe3Ql/woTnmHDr5JD8UI5hn2pwBrHEwOEMZK7WlNb5RKB6EoJ02gwmQS9OrjuFnZYdpg==}
 
   '@types/qs@6.15.0':
     resolution: {integrity: sha512-JawvT8iBVWpzTrz3EGw9BTQFg3BQNmwERdKE22vlTxawwtbyUSlMppvZYKLZzB5zgACXdXxbD3m1bXaMqP/9ow==}
@@ -2843,7 +2843,7 @@ snapshots:
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
 
   '@types/chai@5.2.3':
     dependencies:
@@ -2852,7 +2852,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
 
   '@types/deep-eql@4.0.2': {}
 
@@ -2862,7 +2862,7 @@ snapshots:
 
   '@types/express-serve-static-core@5.1.1':
     dependencies:
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
       '@types/qs': 6.15.0
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -2881,10 +2881,10 @@ snapshots:
 
   '@types/node-fetch@2.6.13':
     dependencies:
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
       form-data: 4.0.5
 
-  '@types/node@25.5.0':
+  '@types/node@25.5.2':
     dependencies:
       undici-types: 7.18.2
 
@@ -2898,12 +2898,12 @@ snapshots:
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
 
   '@types/serve-static@2.2.0':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
 
   '@typescript-eslint/eslint-plugin@8.57.2(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@6.0.2))(eslint@10.1.0)(typescript@6.0.2)':
     dependencies:
@@ -3096,13 +3096,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.1(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))':
+  '@vitest/mocker@4.1.1(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))':
     dependencies:
       '@vitest/spy': 4.1.1
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+      vite: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
 
   '@vitest/pretty-format@4.1.1':
     dependencies:
@@ -4118,14 +4118,14 @@ snapshots:
     dependencies:
       typescript: 6.0.2
 
-  ts-node@10.9.2(@types/node@25.5.0)(typescript@6.0.2):
+  ts-node@10.9.2(@types/node@25.5.2)(typescript@6.0.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.12
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
       acorn: 8.16.0
       acorn-walk: 8.3.5
       arg: 4.1.3
@@ -4197,17 +4197,17 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-tsconfig-paths@6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)):
+  vite-tsconfig-paths@6.1.1(typescript@6.0.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@6.0.2)
-      vite: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+      vite: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0):
+  vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
@@ -4215,15 +4215,15 @@ snapshots:
       rolldown: 1.0.0-rc.13
       tinyglobby: 0.2.16
     optionalDependencies:
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
       esbuild: 0.27.4
       fsevents: 2.3.3
       tsx: 4.21.0
 
-  vitest@4.1.1(@types/node@25.5.0)(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)):
+  vitest@4.1.1(@types/node@25.5.2)(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)):
     dependencies:
       '@vitest/expect': 4.1.1
-      '@vitest/mocker': 4.1.1(vite@8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0))
+      '@vitest/mocker': 4.1.1(vite@8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0))
       '@vitest/pretty-format': 4.1.1
       '@vitest/runner': 4.1.1
       '@vitest/snapshot': 4.1.1
@@ -4240,10 +4240,10 @@ snapshots:
       tinyexec: 1.0.4
       tinyglobby: 0.2.15
       tinyrainbow: 3.1.0
-      vite: 8.0.7(@types/node@25.5.0)(esbuild@0.27.4)(tsx@4.21.0)
+      vite: 8.0.7(@types/node@25.5.2)(esbuild@0.27.4)(tsx@4.21.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 25.5.0
+      '@types/node': 25.5.2
     transitivePeerDependencies:
       - msw
 
