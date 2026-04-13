@@ -28,7 +28,7 @@
     "@types/node": "^25.5.2",
     "@types/ramda": "0.31.1",
     "@typescript-eslint/eslint-plugin": "^8.58.1",
-    "@typescript-eslint/parser": "^8.58.0",
+    "@typescript-eslint/parser": "^8.58.1",
     "core-js": "3.49.0",
     "fp-ts": "2.16.11",
     "rimraf": "6.1.3",
