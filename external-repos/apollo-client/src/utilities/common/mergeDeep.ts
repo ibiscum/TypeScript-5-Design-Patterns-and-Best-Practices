@@ -73,8 +73,13 @@ export class DeepMerger<TContextArgs extends any[]> {
   public merge(target: any, source: any, ...context: TContextArgs): any {
     if (isNonNullObject(source) && isNonNullObject(target)) {
       Object.keys(source).forEach((sourceKey) => {
-        // Prevent prototype pollution
-        if (sourceKey === '__proto__' || sourceKey === 'constructor' || sourceKey === 'prototype') {
+        // Prevent prototype pollution by ignoring dangerous keys that could
+        // modify Object.prototype or constructor behavior.
+        if (
+          sourceKey === "__proto__" ||
+          sourceKey === "constructor" ||
+          sourceKey === "prototype"
+        ) {
           return;
         }
         if (hasOwnProperty.call(target, sourceKey)) {
@@ -118,7 +123,8 @@ export class DeepMerger<TContextArgs extends any[]> {
         if (Array.isArray(value)) {
           value = (value as any).slice(0);
         } else {
-          // Create a shallow copy in a prototype-less object to prevent prototype pollution
+          // Create a shallow copy in a prototype-less object to prevent prototype pollution.
+          // Using Object.create(null) ensures the clone has no inherited properties.
           value = Object.assign(Object.create(null), value);
         }
         this.pastCopies.add(value);
