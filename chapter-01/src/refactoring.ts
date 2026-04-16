@@ -9,3 +9,9 @@ function find<T>(arr: T[], predicate: Predicate<T>) {
 
   return undefined
 }
+
+const numbers = [1, 2, 3, 4, 5]
+
+const found = find(numbers, (num) => num > 3)
+
+console.log(found) // Output: 4

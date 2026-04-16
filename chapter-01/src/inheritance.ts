@@ -17,3 +17,6 @@ class UsersApiClient extends BaseClient {
     console.log(`Fetching users from ${this.getBaseUrl()}/users`)
   }
 }
+
+const client = new UsersApiClient("https://api.example.com")
+client.getUsers()

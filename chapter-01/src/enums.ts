@@ -6,6 +6,7 @@ enum Direction {
 }
 
 const userDirection: Direction = Direction.Up
+console.log(userDirection) // Output: 0
 
 enum Permission {
   Read = "read",
@@ -14,7 +15,9 @@ enum Permission {
 }
 
 function grantPermission(permission: Permission) {
+
   // ... handle permission
+  console.log(`Granted permission: ${permission}`)
 }
 
 grantPermission(Permission.Read)
@@ -26,4 +29,5 @@ enum Color {
 }
 
 const myColor: Color = Color.Red
+console.log(myColor) // Output: 0
 // myColor = "orange"

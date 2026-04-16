@@ -18,3 +18,7 @@ class Square extends Shape {
     return this.sideLength * this.sideLength
   }
 }
+
+const square = new Square(5, "red")
+
+console.log(square.getArea())

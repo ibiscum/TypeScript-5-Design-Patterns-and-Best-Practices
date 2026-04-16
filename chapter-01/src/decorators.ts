@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 function memoize<T>(originalMethod: any, _context: any) {
   const cache: Map<string, T> = new Map()
   if (typeof originalMethod !== "function") {

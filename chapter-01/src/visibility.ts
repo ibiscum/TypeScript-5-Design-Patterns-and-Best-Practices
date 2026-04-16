@@ -15,3 +15,7 @@ class SSHUser {
     return Buffer.from(this.publicKey).toString("base64")
   }
 }
+
+const user = new SSHUser("privateKey", "publicKey")
+
+console.log(user.getBase64());

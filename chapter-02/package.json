@@ -25,10 +25,10 @@
     "@types/node": "^25.5.2",
     "rimraf": "6.1.3",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "typescript": "<6.0.0"
   },
   "keywords": [],
   "author": "Theo Despoudis",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js"
 }
