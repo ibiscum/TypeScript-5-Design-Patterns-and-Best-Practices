@@ -1,1 +1,0 @@
-{"root":["./vitest.config.ts","./src/first-class-citizens.ts","./src/function-composition.ts","./src/functional-structures.ts","./src/immutability.ts","./src/impure-functions.ts","./src/io-actions.ts","./src/lens.ts","./src/monads.ts","./src/pure-functions.ts","./src/recursion.ts","./src/referential.ts"],"errors":true,"version":"6.0.2"}

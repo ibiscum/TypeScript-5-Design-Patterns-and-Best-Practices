@@ -43,12 +43,11 @@ class ExcelToPDF extends ExcelToCSV {
     super(csvFilePath, excelFilePath)
   }
 
-
-
   write(input: string[]): void {
     // Logic to write to PDF
   }
 }
+
 
 class CSVReader implements Reader {
   constructor(private csvFilePath: string) {}
