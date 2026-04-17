@@ -1,6 +1,7 @@
 export interface MetricCalculator {
   getDistanceInMeters(): number
 }
+
 export class MetricSystem implements MetricCalculator {
   private distanceInMeters: number
 

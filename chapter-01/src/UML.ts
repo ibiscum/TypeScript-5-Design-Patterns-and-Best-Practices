@@ -1,3 +1,5 @@
+import { Buffer } from 'node:buffer';
+
 class Product {
   constructor(
     private name: string,
@@ -19,6 +21,13 @@ class Product {
     this.price = this.price * (1 - discountPercentage / 100)
   }
 }
+
+const product = new Product("Laptop", 1000)
+console.log(product.getName()) // Output: Laptop
+console.log(product.getPrice()) // Output: 1000
+
+product.discount(10)
+console.log(product.getPrice()) // Output: 900
 
 interface Identifiable<T extends string | number> {
   id: T
@@ -43,6 +52,13 @@ class Blog implements Identifiable<string> {
     this.author = author
   }
 }
+
+const author = new Author("a1", "John Doe")
+const blog = new Blog("b1", author)
+
+console.log(blog.id) // Output: b1
+console.log(blog.author.name) // Output: John Doe
+
 class QueryBuilder {}
 
 class EmptyQueryBuilder extends QueryBuilder {}
@@ -61,6 +77,10 @@ class SearchService {
     this.path = path
   }
 }
+
+const searchService = new SearchService({ path: "/search" })
+console.log(searchService.path) // Output: /search
+console.log(searchService.queryBuilder instanceof EmptyQueryBuilder) // Output: true
 
 class Room {
   private name: string
@@ -87,12 +107,25 @@ class House {
 
   removeRoom(room: Room): void {
     // Implement logic to remove the room from the house
+    console.log(`Removing room: ${room.getName()}`)
+
+
   }
 
   getRooms(): Room[] {
     return this.rooms // Return a copy to avoid modifying original array
   }
 }
+
+const house = new House()
+const livingRoom = new Room("Living Room")
+const kitchen = new Room("Kitchen")
+
+house.addRoom(livingRoom)
+house.addRoom(kitchen)
+
+console.log(house.getRooms().map(room => room.getName())) // Output: ["Living Room", "Kitchen"]
+
 class SSHUser {
   constructor(
     private privateKey: string,
@@ -107,3 +140,6 @@ class SSHUser {
     return Buffer.from(this.publicKey).toString("base64")
   }
 }
+
+const sshUser = new SSHUser("privateKey123", "publicKey456")
+console.log(sshUser.getBase64()) // Output: cHVibGljS2V5NDU2

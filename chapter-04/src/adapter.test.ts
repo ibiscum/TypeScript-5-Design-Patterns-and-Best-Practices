@@ -1,4 +1,4 @@
-import { ImperialToMetricAdapter, MetricCalculator, ImperialSystem } from "./adapter"
+import { ImperialToMetricAdapter, MetricCalculator, ImperialSystem } from "./adapter.js"
 import { test, expect, describe, beforeEach, vi } from "vitest"
 
 describe("ImperialToMetricAdapter", () => {
