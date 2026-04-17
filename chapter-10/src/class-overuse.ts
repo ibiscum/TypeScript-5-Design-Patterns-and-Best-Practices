@@ -16,6 +16,7 @@ class CSV implements Reader, Writer {
 
   write(input: string[]): void {
     // Logic to write to CSV
+    console.log(`Writing to CSV at ${this.csvFilePath}: ${input.join(", ")}`)
   }
 }
 
@@ -42,6 +43,8 @@ class ExcelToPDF extends ExcelToCSV {
     super(csvFilePath, excelFilePath)
   }
 
+
+
   write(input: string[]): void {
     // Logic to write to PDF
   }
@@ -55,6 +58,9 @@ class CSVReader implements Reader {
     return ["data1", "data2"]
   }
 }
+
+const csvReader = new CSVReader("data.csv")
+console.log(csvReader.read()) // Output: ["data1", "data2"]
 
 class CSVWriter implements Writer {
   write(input: string[]): void {
