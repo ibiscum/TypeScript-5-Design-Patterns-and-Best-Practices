@@ -11,6 +11,9 @@ packages:
   - 'chapter-10'
   - 'chapter-11/*'
 
+allowBuilds:
+  '@nestjs/core': true
+
 onlyBuiltDependencies:
   - '@nestjs/core'
   - core-js
