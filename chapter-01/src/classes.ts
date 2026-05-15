@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 class User {
   constructor(private readonly name: string) {
     this.name = name
