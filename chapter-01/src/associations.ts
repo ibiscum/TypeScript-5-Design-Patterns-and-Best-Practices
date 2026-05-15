@@ -1,6 +1,7 @@
 interface Id<T extends string | number> {
   id: T
 }
+
 class Author {
   constructor(
     private id: string,
@@ -19,3 +20,8 @@ class Blog implements Id<string> {
     this.author = author
   }
 }
+
+const author = new Author('1', 'Theo Despoudis')
+const blog = new Blog('1', author)
+
+console.log(blog.author)
