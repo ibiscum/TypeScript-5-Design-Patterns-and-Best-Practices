@@ -486,8 +486,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
       react:
-        specifier: 19.2.5
-        version: 19.2.5
+        specifier: 19.2.6
+        version: 19.2.6
       reflect-metadata:
         specifier: 0.2.2
         version: 0.2.2
@@ -526,8 +526,8 @@ importers:
         specifier: '>=3.3.2'
         version: 3.3.2
       react:
-        specifier: '>=19.2.5'
-        version: 19.2.5
+        specifier: '>=19.2.6'
+        version: 19.2.6
       reflect-metadata:
         specifier: '>=0.2.2'
         version: 0.2.2
@@ -1837,8 +1837,8 @@ packages:
   react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
 
-  react@19.2.5:
-    resolution: {integrity: sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA==}
+  react@19.2.6:
+    resolution: {integrity: sha512-sfWGGfavi0xr8Pg0sVsyHMAOziVYKgPLNrS7ig+ivMNb3wbCBw3KxtflsGBAwD3gYQlE/AEZsTLgToRrSCjb0Q==}
     engines: {node: '>=0.10.0'}
 
   reflect-metadata@0.2.2:
@@ -3443,7 +3443,7 @@ snapshots:
 
   react-is@18.3.1: {}
 
-  react@19.2.5: {}
+  react@19.2.6: {}
 
   reflect-metadata@0.2.2: {}
 
