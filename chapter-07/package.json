@@ -15,7 +15,7 @@
     "@nestjs/core": ">=11.1.24",
     "body-parser": ">=2.2.2",
     "express": ">=5.2.1",
-    "immutable": ">=5.1.5",
+    "immutable": ">=5.1.6",
     "ramda": ">=0.32.0",
     "reflect-metadata": ">=0.2.2",
     "rxjs": ">=7.8.2"
