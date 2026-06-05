@@ -15,14 +15,14 @@
     "@nestjs/core": ">=11.1.24",
     "body-parser": ">=2.2.2",
     "express": ">=5.2.1",
-    "immutable": ">=5.1.5",
+    "immutable": ">=5.1.6",
     "ramda": ">=0.32.0",
     "reflect-metadata": ">=0.2.2",
     "rxjs": ">=7.8.2"
   },
   "devDependencies": {
     "@types/express": ">=5.0.6",
-    "@types/node": ">=25.5.2",
+    "@types/node": ">=25.9.1",
     "@types/ramda": ">=0.31.1",
     "@typescript-eslint/eslint-plugin": ">=8.58.1",
     "@typescript-eslint/parser": ">=8.60.0",
